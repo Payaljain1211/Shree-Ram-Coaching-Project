@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Ram Coaching center</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+    header{
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid black; */
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .image1{
+        opacity: 0.8;
+        height: 500px;
+        width: 100%;
+    }
+    .img1{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* border: 1px solid black; */
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .logo{
+        background-color: rgb(252, 252, 252,0.9);
+        margin: auto;
+        border-radius: 10px;
+        justify-content: center;
+        width: 20%;
+        height: 40%;
+        /* border: 1px solid black; */
+        display: flex;
+    }
+    .H1{
+        color: rgb(2, 2, 30);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255,0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        margin: auto;
+        /* border: 1px solid black; */
+        height: 100px;
+        width: 60%;
+    }
+    .H1>h2{
+        margin: auto;
+        color: rgb(2, 2, 30);
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+     h1{
+        color: rgb(1, 1, 21);
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+    } 
+    main{
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
+        margin: auto;
+        height: 500px;
+        width: 90%;
+        background-color: rgb(234, 243, 251);
+        /* border: 1px solid black; */
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: space-evenly;
+    }  
+    .box{
+        align-items: center;
+        height: 500px;
+        width: 60%;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: rgb(234, 243, 251);
+    }
+    .b1{
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
+       align-items: center;
+        opacity: 0.9;
+        margin-right: 30px;
+        margin-top: 150px;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+        height: 300px;
+        width: 40%;
+    }
+    .box> h1{
+        /* margin-top: 30px; */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .box>h3{
+        margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .box>p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    section{
+        padding: 10px;
+        align-items: center;
+        margin: auto;
+        margin-top: 130px;
+        height: 390px;
+        width: 35%;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        background-color: rgb(234, 243, 251);
+    }
+    section>h2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: x-large;
+    }
+    .student,.Phone,.target,button{
+        margin-top: 15px;
+        margin-left: 30px;
+    }
+    input{
+        padding: 10px ;
+        margin-left: 3px;
+        border: 1px solid #ccc;
+        outline: none;
+        border-radius: 5px;
+        height: 30px;
+        width: 90%;
+        margin-top: 10px;
+    }
+    input:required:invalid {
+        border: 1px solid #d33;}
+        input:required:valid {
+            border: 1px solid #2a9d3f;}
+        label{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            margin-top: 100px;
+        }
+        select{
+            height: 30px;
+            width: 90%;
+            margin-top: 10px;
+            outline: none;
+        }
+        input[type="submit"]{
+            text-decoration: none;
+            color: #000;
+        }
+        input[type="submit"]:hover {
+            cursor: pointer;
+            transform: scale(1.1); 
+        }
+        input[type="submit"]{
+            border-radius: 10px;
+            background-color: rgb(2, 2, 30);
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            border: 2px solid #4f5162;
+            height: 35px;
+            width: 60%;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: white; */
+            outline: none;
+        }
+        footer{
+            margin-top: 5%;
+            height: 350px;
+            width: 100%;
+            background-color: rgb(234, 243, 251);
+        }
+        footer>h1{
+            /* border: 1px solid black; */
+            color: rgb(2, 2, 30);
+            margin-top: 20px;
+        }
+        .container{
+            height: 70px;
+            /* border: 1px solid black; */
+            width: 100%;
+            margin-left:auto;
+            margin-right: auto;
+            text-align: center;
+        }
+       .container>h1{
+        color: rgb(2, 2, 30);
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+            height: 30px;
+            font-size: large;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            /* border: 1px solid black;  */
+        }
+        h2{
+            color: rgb(2, 2, 30);
+            margin-top: 5px;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            align-items: center;
+            height: 30px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            /* border: 1px solid black; */
+            
+        }
+         .con2>h3{
+            /* margin-top: 10px; */
+            /* border: 1px solid black; */
+            height: 50px;
+            width: 30%;
+            border-radius: 10px;
+            background-color: white;
+            margin-left:auto;
+            margin-right: auto;
+            text-align: center;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .con3{
+            color: rgb(2, 2, 30);
+            height: 100px;
+            width: 80%;
+            /* border: 1px solid black; */
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .i{
+            margin-top: auto ;
+            /* height: 10px; */
+            width: 15%;
+            margin: auto;
+            text-decoration: none;
+            color: rgb(2, 2, 30);
+            font-size: larger;
+            height: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: white;
+            text-align: center;
+            align-items: center;
+            border-radius: 10px;
+            /* border: 1px solid black; */
+            display: flex;
+           justify-content: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.09);
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+        }
+        .con3>a:hover{
+            transform: scale(1.2);
+        }
+        @media screen and (min-width: 1400px) {
+    .image1 {
+        height: 600px;
+    }
+    .logo {
+        width: 18%;
+        height: 40%;
+    }
+    .H1 {
+        width: 60%;
+    }
+    main{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1399px) {
+    .image1 {
+        height: 450px;
+    }
+    .logo {
+        width: 22%;
+    }
+    .H1 {
+        width: 65%;
+    }
+    main{
+        width: 95%;
+    }
+    .box {
+        width: 58%;
+    }
+    .b1 {
+        width: 38%;
+        margin-right: 20px;
+    }
+    section{
+        width: 38%;
+    }
+    .con2 > h3 {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .image1 {
+        height: 380px;
+        /* margin-top: 70px; */
+    }
+    .logo {
+        width: 25%;
+        height: 35%;
+    }
+    .H1 {
+        width: 70%;
+        height: 90px;
+        font-size: x-large;
+    }
+    .H1 > h2 {
+        font-size: x-large;
+    }
+    main{
+        width: 95%;
+        height: auto;
+        min-height: 450px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .box {
+        width: 55%;
+        height: auto;
+    }
+    .b1 {
+        width: 40%;
+        height: 260px;
+        margin-top: 80px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+    section{
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    input,select {
+        width: 95%;
+        box-sizing: border-box;
+    }
+    .student,.Phone,.target,button {
+        margin-left: 10px;
+    }
+    footer{
+        height: auto;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .con2 > h3 {
+        width: 55%;
+    }
+    .con3{
+        width: 95%;
+        flex-wrap: wrap;
+        gap: 15px;
+        height: auto;
+        padding: 15px 0;
+    }
+    .i{
+        width: 25%;
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 768px) {
+    header{
+        height: auto;
+        min-height: 280px;
+    }
+    .image1 {
+        height: 300px;
+        /* margin-top: 60px; */
+        object-fit: cover;
+    }
+    .img1 {
+        flex-wrap: wrap;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .logo {
+        width: 30%;
+        height: 30%;
+        min-height: 80px;
+    }
+    .H1{
+        width: 90%;
+        min-height: 70px;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        font-size: large;
+    }
+    .H1>h2 {
+        font-size: large;
+    }
+    h1{
+        font-size: larger;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    main{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px 15px;
+        gap: 20px;
+        box-sizing: border-box;
+    }
+    .box {
+        width: 100%;
+        height: auto;
+    }
+    .b1 {
+        width: 90%;
+        height: 250px;
+        margin: 10px auto;
+        display: block;
+        object-fit: cover;
+    }
+    section{
+        gap: 100px;
+        width: 80%;
+        height: auto;
+        padding: 10px;
+        margin-top: 40px;
+        box-sizing: border-box;
+    }
+    .box>p {
+        font-size: medium;
+        margin-left: 5px;
+        margin-right: 5px;
+        line-height: 1.6;
+    }
+    input,select {
+        width: 100%;
+        margin-left: 0;
+        box-sizing: border-box;
+    }
+    .student,.Phone,.target,button {
+        margin-left: 0;
+    }
+    input[type="submit"] {
+        width: 70%;
+    }
+    footer{
+        height: auto;
+        margin-top: 30px;
+        padding: 15px 0;
+    }
+    .container{
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    h3{
+        height: auto;
+        padding: 10px 0;
+        box-sizing: border-box;
+    }
+    h2{
+        height: auto;
+    }
+    .con2>h3{
+        width: 80%;
+        min-height: 50px;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .con3{
+        width: 95%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 15px 0;
+    }
+    .i{
+        width: 40%;
+        min-height: 40px;
+        height: auto;
+        padding: 8px;
+        box-sizing: border-box;
+        font-size: medium;
+    }
+    .con3>a:hover{
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 480px) {
+    header{
+        min-height: 220px;
+    }
+    .image1{
+        height: 230px;
+        /* margin-top: 50px; */
+    }
+    .logo{
+        width: 35%;
+        min-height: 65px;
+    }
+    .H1{
+        width: 95%;
+        min-height: 60px;
+        padding: 8px;
+    }
+    .H1>h2{
+        font-size: 18px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    main{
+        width: 95%;
+        padding: 15px 10px;
+        gap: 15px;
+    }
+    .box>h1{
+        font-size: 21px;
+    }
+    .box>h3{
+        font-size: 17px;
+    }
+    .box>p{
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .b1{
+        width: 100%;
+        height: 200px;
+        margin: 5px auto;
+    }
+    section{
+        /* padding: 5px; */
+    }
+    label{
+        font-size: 14px;
+    }
+    input{
+        height: 40px;
+        font-size: 14px;
+    }
+    select{
+        height: 40px;
+        font-size: 14px;
+    }
+    input[type="submit"] {
+        width: 80%;
+        height: 40px;
+    }
+    .con2>h3{
+        width: 90%;
+        font-size: 14px;
+    }
+    section{
+        gap: 100px;
+        margin-top: 50px;
+    }
+    .con3{
+        gap: 10px;
+    }
+    .i{
+        width: 45%;
+        min-height: 40px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 319px) {
+    .image1{
+        /* margin-top: 80px; */
+    }
+    .H1>h2{
+        font-size: 16px;
+    }
+    .logo{
+        width: 40%;
+    }
+    main{
+        padding: 10px 5px;
+    }
+    .box>p{
+        font-size: 13px;
+    }
+    section{
+        margin-top: 50px;
+    }
+    .i{
+        width: 90%;
+    }
+    input[type="submit"] {
+        width: 95%;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="l" src="pic/logo.png" alt="Logo">
+        <ul>
+        <li> <a href="home.html" class="action"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="classes.html"><i class="fa-solid fa-book-open"></i> Classes</a></li>
+        <li><a href="results.html"><i class="fa-solid fa-graduation-cap"></i> Results</a></li>
+        <li><a href="Register.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Register</a></li>
+        </ul>
+    </nav>
+    <div class="payal"></div>
+
+<header>
+        <img class="image1" src="pic/image.png" alt="Pictures of institudes">
+
+        <div class="img1">
+        <img class="logo" src="pic/logo.png" alt="Logo">
+   <div class="H1" > <h2 style="font-family: Arial, Helvetica, sans-serif; font-size: larger;">Shree Ram Coaching</h2></div>
+</div>
+
+</header>
+    <h1 style="color :rgb(2, 2, 30);"> "Coaching is unlocking a person’s potential to maximize their growth"</h1>
+<main>
+               <div class="box"><br>
+             <h1>ABOUT SHREE RAM COACHING</h1>
+                <h2 style="align-items: center; font-family: Arial, Helvetica, sans-serif;">Your Trusted Local Learning Center | Classes 1st to 12th</h2><br>
+                         <p ><i class="fa-solid fa-circle-check"></i> Under the Guidance of <strong>Mr. Ashish Parashar</strong> & <strong>Mr. Susheel Parashar</strong></p>
+                         <p><i class="fa-solid fa-circle-check"></i> Shree Ram Coaching is the best place for <strong>Class 1st to 12th</strong> students.</p>
+                          <p><i class="fa-solid fa-circle-check"></i> <strong> Library </strong>&<strong>  Reading Room</strong> Access for deep focus and self-preparation</p>
+                        <p><i class="fa-solid fa-circle-check"></i><strong> Admissions Open</strong> for Class 1st to 12th (All Subjects)</p>
+                         <p><i class="fa-solid fa-circle-check"></i> Complete <strong>School Board Syllabus</strong> (NCERT Pattern)</p>
+                        <p><i class="fa-solid fa-circle-check"></i>We teach both <strong>English </strong>and <strong>Hindi medium</strong> students</p>
+                        <p><i class="fa-solid fa-circle-check"></i>Visit us or call for a 2-day free demo class.</p>
+                                                </div>
+                                                <img class="b1" src="pic/ss.png" alt="Celebrating success">
+                                            </main>
+                                                
+         <section>
+                    <h2>Admission Enquiry Form</h2>
+                  <form action="Register.html" id="enquiry-form"> 
+            <div class="student">
+                <label for="student-name">Student Name </label><br>
+                <input type="text" name="Name" placeholder="Enter Student full name" required minlength="2" maxlength="40" id="student-name">
+            </div>
+             <div class="Phone">
+                <label for="phone-number">Phone number </label><br>
+                <input type="tel" name="Phone" placeholder="Enter a 10-digit Phone Number without Spaces" required minlength="10" maxlength="10" id="phone-number">
+            </div>
+            <div class="target">
+                <label for="Select-class">Select your class</label><br>
+                <select required>
+                    <option value="" disabled selected>Select Class</option>
+                    <option value="1">Class 1st</option>
+                    <option value="2">Class 2nd</option>
+                    <option value="3">Class 3rd</option>
+                    <option value="4">Class 4th</option>
+                    <option value="5">Class 5th</option>
+                    <option value="6">Class 6th</option>
+                    <option value="7">Class 7th</option>
+                    <option value="8">Class 8th</option>
+                    <option value="9">Class 9th</option>
+                    <option value="10">Class 10th</option>
+                    <option value="11">Class 11th</option>
+                    <option value="12">Class 12th</option>
+
+                </select>
+            </div>
+            <input type="submit" value="Submit" id="Select-class">
+        </form>
+</section>
+       <footer><br>
+        <h1><i class="fa-solid fa-book-open"></i> Shree Ram Coaching</h1>
+        <div class="container">
+            <h1>"There is no elevator to success. You have to take the stairs."</h1>
+            <h2 style="color: rgb(105, 103, 103);">"सफलता के लिए कोई लिफ्ट नहीं होती, आपको सीढ़ियों का ही इस्तेमाल करना होगा।"</h2><br>
+            </div><br>
+            <div class="con2">
+                <h3 style="font-family: Arial, Helvetica, sans-serif;">Know more about us..<i class="fas fa-arrow-down"></i></h3>
+            </div>   
+            <div class="con3">
+                <a class="i" href="classes.html">Classes</a>
+                <a class="i" href="results.html">Results</a>
+                <a class="i" href="register.html">Register</a>
+            </div>  
+        </footer>
+</body>
+</html>

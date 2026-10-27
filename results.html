@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Ram Coaching center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+       header{
+            height: 400px;
+            width: 100%;
+            display: flex;
+            /* border: 1px solid black; */
+            justify-content: center;
+        }
+      .box1{
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+            height: 220px;
+            width: 30%;
+            /* margin-left: 10px; */
+            /* border: 1px solid black; */
+             }
+              .box2{
+            height: 400px;
+            width: 70%;
+            margin-right: auto;
+            /* border: 1px solid black; */
+            display: flex;
+             }
+     .box1> h1{
+        align-items: center;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        font-size: xx-large;    
+      }
+      .h1{
+        -webkit-mask-image: linear-gradient(to right, transparent,white 10%);
+        opacity: 0.9;
+        height: 100%;
+        width: 100%;
+        align-items: flex-start;
+      }
+      h1{
+        align-items: baseline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        text-align: center;
+      }
+      main{
+        margin-top: 30px;
+        height: 400px;
+        width: 100%;
+        background: rgb(203, 225, 244) ;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .science,.commerce,.arts,.tenth{
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
+        height: 80%;
+        width: 20%;
+        background-color: white;
+        border-radius: 10px;
+        /* border: 1px solid black; */
+      }
+      .c1{
+        margin: auto;
+        background-color: rgb(203, 225, 244) ;
+        color: rgb(48, 48, 109);
+        margin-top: 15px;
+        height: 40%;
+        width: 50%;
+        border-radius: 50%;
+        /* border: 1px solid black; */
+         box-shadow: 0 5px 30px rgba(0, 0, 0, 0.09);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+      }
+      .c1>h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: xx-large;
+        background-color: rgb(203, 225, 244) ;
+      }
+      p,h2{
+        text-align: center;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .commerce>p{
+        font-size: small;
+        color: grey;
+      }
+      .commerce>h2{
+        color: rgb(35, 35, 97);
+      }
+      .arts>p{
+        font-size: small;
+        color: grey;
+      }
+      .arts>h2{
+        color: rgb(35, 35, 97);
+      }
+       .science>p{
+        font-size: small;
+        color: grey;
+      }
+      .science>h2{
+        color: rgb(35, 35, 97);
+      }
+        .tenth>p{
+        font-size: small;
+        color: grey;
+      }
+      .tenth>h2{
+        font-size: x-large;
+        color: rgb(35, 35, 97);
+         text-align: center;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+       .tenth>h3{
+        font-size: x-large;
+        color: rgb(35, 35, 97);
+         text-align: center;
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      section{
+        margin: auto;
+        /* border: 1px solid black; */
+        height: 100px;
+        width: 80%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+     section>h2{
+        background-color:  rgb(203, 225, 244);
+        border-radius: 10px;
+        height: 50px;
+        width: 45%;
+        color: rgb(35, 35, 97);
+        /* border: 1px solid black; */
+        align-items: center;
+        text-align: center;
+      }
+      footer{
+        height: 350px;
+        width: 100%;
+        /* border: 1px solid black; */
+        background-color:white ;
+      }
+      .results{
+        opacity: 0.9;
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.09);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 90%;
+        height: 500px;
+        border-radius: 10px;
+      }
+      .h1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-mask-image: linear-gradient(to right, transparent, white 10%);
+    mask-image: linear-gradient(to right, transparent, white 10%);
+}
+@media screen and (min-width: 1400px) {
+    .box1 {
+        width: 30%;
+    }
+    .box2 {
+        width: 70%;
+    }
+    main {
+        height: 420px;
+    }
+    .science,.commerce,.arts,.tenth {
+        width: 19%;
+    }
+    .results {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1399px) {
+    header{
+        height: auto;
+        min-height: 350px;
+    }
+    .box1 {
+        width: 35%;
+        height: auto;
+    }
+    .box2 {
+        width: 65%;
+        height: 350px;
+    }
+    .box1 > h1 {
+        font-size: 28px;
+    }
+    main {
+        height: 350px;
+        gap: 15px;
+        padding: 15px;
+    }
+    .science,.commerce,.arts,.tenth {
+        width: 23%;
+        height: 85%;
+    }
+    .c1 {
+        width: 55%;
+        height: 38%;
+    }
+    .c1 > h1 {
+        font-size: 26px;
+    }
+    section {
+        width: 90%;
+    }
+    section > h2 {
+        width: 45%;
+        font-size: 25px;
+    }
+    footer {
+        height: auto;
+        min-height: 450px;
+        padding-bottom: 20px;
+    }
+    .results {
+        width: 90%;
+        height: 450px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .box {
+        height: 60px;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 20px;
+    }
+    .box1 {
+        width: 90%;
+        height: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .box1 > h1 {
+        margin-top: 15px;
+        font-size: 26px;
+    }
+    .box2 {
+        width: 90%;
+        height: 320px;
+        margin: 0 auto;
+    }
+    .h1 {
+        object-fit: cover;
+    }
+    main {
+        height: auto;
+        min-height: 350px;
+        flex-wrap: wrap;
+        padding: 25px 15px;
+        gap: 20px;
+    }
+    .science,.commerce,.arts,.tenth {
+        width: 42%;
+        height: 260px;
+        padding: 10px;
+    }
+    .c1 {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+    }
+    .c1 > h1 {
+        font-size: 25px;
+    }
+    .science > h2,.commerce > h2,.arts > h2,.tenth > h2 {
+        font-size: 20px;
+    }
+    .tenth > h3 {
+        font-size: 20px;
+    }
+    section {
+        width: 95%;
+        height: auto;
+        min-height: 100px;
+        gap: 15px;
+        padding: 15px 0;
+    }
+    section > h2 {
+        width: 48%;
+        height: auto;
+        min-height: 40px;
+        padding: 8px;
+        font-size: 21px;
+    }
+    footer {
+       height: auto;
+        padding-bottom: 20px;
+    }
+    .results {
+        width: 95%;
+        height: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .box1{
+        margin-top: 40px;
+        height: 40px;
+    }
+    header{
+        margin-top: 10px;
+        flex-direction: column;
+        height: auto;
+        gap: 2px;
+    }
+    .box1 {
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .box1 > h1 {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+    .box2 {
+        margin-top: 10px;
+        width: 95%;
+        height: 260px;
+        margin: 0 auto;
+    }
+    .h1 {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    main {
+        margin-top: 20px;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+        gap: 15px;
+    }
+    .science,.commerce,.arts,.tenth {
+        width: 45%;
+        height: 240px;
+        padding: 8px;
+    }
+    .c1 {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .c1 > h1 {
+        font-size: 22px;
+    }
+    p,h2{
+        margin-top: 8px;
+    }
+    .science > p,.commerce > p,.arts > p,.tenth > p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .science > h2,.commerce > h2,.arts > h2,.tenth > h2,.tenth > h3 {
+        font-size: 17px;
+    }
+    section {
+        width: 95%;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+        padding: 15px 0;
+    }
+    section > h2 {
+        width: 90%;
+        min-height: 40px;
+        height: auto;
+        padding: 8px;
+        font-size: 20px;
+    }
+    footer {
+        height: 220px;
+        padding-bottom: 10px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        overflow: hidden;
+    }
+    .results {
+        margin-top: 0px;
+        width: 100%;
+        height: 220px;
+        display: block;
+        padding: 0;
+         overflow: hidden;
+    }
+     .results img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .box {
+        height: 30px;
+    }
+    header{
+        gap: 130px;
+    }
+    .box1 {
+        width: 95%;
+    }
+    .box1 > h1 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+    .box2 {
+        width: 95%;
+        height: 210px;
+    }
+    h1 {
+        font-size: 21px;
+    }
+    main{
+        margin-top: 15px;
+        padding: 15px 8px;
+        gap: 12px;
+    }
+    .science,.commerce,.arts,.tenth {
+        width: 46%;
+        height: 215px;
+        padding: 6px;
+        border-radius: 8px;
+    }
+    .c1 {
+        width: 65px;
+        height: 65px;
+        margin-top: 8px;
+    }
+    .c1 > h1 {
+        font-size: 19px;
+    }
+    .science>h2,.commerce>h2,.arts>h2,.tenth>h2,.tenth>h3 {
+        font-size: 15px;
+    }
+    .science>p,.commerce>p,.arts>p,.tenth>p{
+        font-size: 11px;
+        line-height: 1.4;
+    }
+    section{
+        width: 95%;
+        padding: 10px 0;
+    }
+    section>h2 {
+        width: 95%;
+        font-size: 18px;
+    }
+    footer{
+        padding-bottom: 10px;
+    }
+    .results{
+        width: 95%;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 319px) {
+    .box1>h1 {
+        font-size: 18px;
+    }
+    .box2{
+        height: 180px;
+    }
+    main{
+        padding: 10px 5px;
+        gap: 10px;
+    }
+    .science,.commerce,.arts,.tenth{
+        width: 95%;
+        height: 200px;
+    }
+    .c1{
+        width: 60px;
+        height: 60px;
+    }
+    .c1>h1 {
+        font-size: 18px;
+    }
+    section>h2{
+        font-size: 16px;
+    }
+    .results{
+        height: 150px;
+        
+    }
+    footer{
+        padding-bottom: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img class="l" src="pic/logo.png" alt="Logo">
+        <ul>
+        <li> <a href="home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="classes.html"><i class="fa-solid fa-book-open"></i> Classes</a></li>
+        <li><a href="results.html" class="action"><i class="fa-solid fa-graduation-cap"></i> Results</a></li>
+        <li><a href="Register.html"><i class="fa-solid fa-arrow-right-to-bracket"></i>Register</a></li>
+        </ul>
+    </nav>
+    <div class="payal"></div>
+<header>
+    <div class="box1">
+   <h1>When </h1>
+   <h1>concept</h1>
+   <h1>clarity meets</h1>
+        <h1 style="font-style: italic; color: rgb(24, 24, 120);">Academic Success..</h1>
+</div>
+        <div class="box2">
+            <img class="h1" src="pic/celeb.png" alt="Celebrating Academic Success">
+        </div>
+</header><br> <br>
+      <h1><i class="fas fa-graduation-cap"></i>Toppers of batch 2026-27</h1>
+      <main>
+        <div class="science">
+            <div class="c1">
+                <h1>KG</h1></div>
+                 <h2>Kanika Gurjar</h2>
+            <p> 12th Science</p>
+            <h2> 96%</h2>
+            <p>Meera School, <br>Ajmer</p>
+        </div>
+        <div class="commerce">
+            <div class="c1">
+                <h1>PJ</h1>
+            </div>
+            <h2> Payal Jain</h2>
+            <p> 12th Commerce</p>
+            <h2> 91%</h2>
+            <p> H.K.H Public School, <br>Ajmer</p>
+        </div>
+        <div class="arts">
+            <div class="c1">
+                <h1>PK</h1>
+            </div>
+            <h2> Pallavi Kacchawa</h2>
+            <p> 12th Arts</p>
+            <h2> 95.20%</h2>
+            <p> H.K.H Public School, <br>Ajmer</p>
+        </div>
+        <div class="tenth">
+            <div class="c1">
+                <h1>PC</h1>
+            </div>
+             <h2>Priyanka Choudhary</h2>
+            <p> 10th</p>
+            <h2> 94%</h2>
+            <p> Adarsh School, <br>Ajmer</p>
+        </div>
+
+    </main><br>
+
+      <section>
+        <h2>27 Students Scored 90%+</h2>
+        <h2>57 Students Scored 80%+</h2>
+      </section>
+      <footer>
+      <img class="results" src="pic/resultssss.png" alt="2026-27 Toppers">
+      
+    </footer>
+</body>
+</html>
